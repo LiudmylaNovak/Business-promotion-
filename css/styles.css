@@ -1,7 +1,9 @@
 body {
 }
 
-ul {
+ul,
+ol {
+  list-style-type: none;
 }
 /* #region Header */
 /* #endregion Header */
