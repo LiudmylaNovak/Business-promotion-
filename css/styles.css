@@ -86,7 +86,7 @@ a {
 }
 .header-button {
   display: block;
-  border: none;
+  border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
@@ -94,12 +94,11 @@ a {
   cursor: pointer;
   height: 42px;
   min-width: 105px;
-
   margin-right: 21px;
 }
 .header-btn {
   display: block;
-  border: none;
+  border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
