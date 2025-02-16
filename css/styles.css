@@ -31,8 +31,8 @@ img {
   max-width: 100%;
 }
 .container {
-  max-width: 1150px;
-  padding: 0 20px;
+  max-width: 1140px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 a {
@@ -50,14 +50,17 @@ a {
   align-items: center;
 }
 .logo {
-  display: block;
+  display: flex;
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93;
   color: #173a56;
+  text-align: center;
   padding: 26px 0;
-  margin-right: 237px;
-  margin-left: 16px;
+}
+.logo-img {
+  margin-right: 16px;
+  flex-shrink: 0;
 }
 .header-nav-link {
 }
